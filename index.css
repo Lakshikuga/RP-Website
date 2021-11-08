@@ -3,6 +3,14 @@
     padding:0;
 }
 
+.nav-link active{
+    background-color:blue;
+}
+
+.nav-link a:hover{
+    background-color: blue;
+}
+
 body{
     font-family: sans-serif;
 }
@@ -260,5 +268,31 @@ hr{
 
 .docs .btn-primary{
     background-color: #FFC0CB;
+    border:none;
 }
 
+/*-----------------------------------------------------PROJECT SCOPE-----------------------------------*/
+
+.scope{
+    padding:20px;
+    margin-bottom: 30px;
+}
+
+.scope h3{
+    padding:5px;
+    margin-top:50px;
+}
+
+.scope a{
+    text-decoration: none;
+}
+
+.lit{
+    /*padding:5px;*/
+    margin-bottom:30px;
+}
+
+.lit h3{
+    margin-top:3px;
+    margin-bottom: 15px;
+}
