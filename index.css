@@ -3,12 +3,31 @@
     padding:0;
 }
 
-.nav-link active{
-    background-color:blue;
+ a.nav-link:hover{
+     color: #FFC0CB !important;
 }
 
-.nav-link a:hover{
-    background-color: blue;
+
+
+.navbar .nav-item .nav-link{
+    position:relative;
+}
+.navbar .nav-item .nav-link::before{
+    content:'';
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:0;
+    height:2px;
+    background-color:#FC94AF;
+    transition:all 0.5s ease;
+    transform:scale(0);
+    
+}
+
+.navbar .nav-item .nav-link.active::before,
+.navbar .nav-item .nav-link:hover::before{
+    transform:scale(1);
 }
 
 body{
@@ -240,8 +259,9 @@ hr{
     /*background-color: #FFC0CB !important;*/
 }
 
-.btn btn-link {
-    color: #fff;
+.card-header .btn-link {
+    color: #000;
+    text-decoration: none;
     
 }
 
@@ -300,3 +320,55 @@ hr{
 .lit li{
     margin-bottom:15px;
 }
+
+.diagram_img{
+    width:100%;
+}
+
+.diagram_gap{
+    width :50%;
+}
+
+
+.form-group{
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+#exampleFormControlInput1{
+    
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+#exampleFormControlTextarea1{
+    margin-top:20px;
+    margin-bottom: 20px; 
+}
+
+
+
+#contact-btn{
+    margin-top:10px;
+    margin-bottom: 40px; 
+    background-color: #FFC0CB;
+    border: none;
+    
+}
+
+
+
+.form-group.required.control-label:before {
+  content:"*";
+  color:red;
+ 
+}
+
+#contact_title{
+    margin-bottom:90px;
+}
+
+.poster_link{
+    text-decoration: none;
+}
+
