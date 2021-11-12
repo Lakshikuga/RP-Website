@@ -276,12 +276,12 @@ hr{
 /*------------------------------------------------DOCUMENTS---------------------------------------*/
 
 .docs{
-    padding:30px;
+    padding:20px;
     margin-bottom: 30px;
 }
 
 .docs h5{
-    padding:10px;
+    padding:5px;
     margin-top:50px;
     
 }
@@ -289,6 +289,10 @@ hr{
 .docs .btn-primary{
     background-color: #FFC0CB;
     border:none;
+}
+
+.doc_title{
+    padding:5px;
 }
 
 /*-----------------------------------------------------PROJECT SCOPE-----------------------------------*/
